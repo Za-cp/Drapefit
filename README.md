@@ -1,2 +1,70 @@
-# Drapefit
-DrapeFit is a web-based virtual try-on system designed to enhance the online clothing shopping experience. The project enables users to create a personalized 3D avatar through quiz-based inputs, ensuring the avatar reflects the user’s body type and preferences. After registration or login, users can complete a FitQuiz to provide details such as size, body shape, chest, and fit preference. The system then generates a corresponding 3D avatar in real time. Users also have the option to upload a face image, which is mapped onto the avatar using face-mesh techniques, creating a more realistic and personalized experience. The platform allows shirt textures to be dynamically applied to the avatar, giving a true-to-life visualization of how the clothing might look when worn. With interactive controls, users can rotate, zoom, and inspect the avatar from different angles, offering a 360° virtual try-on capability. Built with React on the frontend, Three.js for 3D rendering, and Node.js for backend services, the system provides seamless integration of UI and 3D graphics. Image uploads are validated and processed securely, ensuring only supported file types are used. The platform focuses on reducing product return rates by helping users make more confident purchase decisions. By combining questionnaires, avatar customization, and texture mapping, DrapeFit bridges the gap between digital browsing and physical try-on. It supports scalability and modular design through component-based architecture. The use of object-oriented principles allows each module, such as FitQuiz, ModelViewer, and Upload, to work independently yet cohesively. Restful APIs are employed for communication between frontend and backend, ensuring fast and reliable data exchange. Face integration and UV mapping techniques enhance realism and immersion. The platform prioritizes user-friendliness with an intuitive interface and easy navigation. Security measures are implemented in the upload process to protect user data. Mobile compatibility ensures accessibility across devices. The project incorporates layered architecture with presentation, application, and data layers for better maintainability. It leverages algorithms for avatar sizing, face mapping, and texture application. Blender is used for UV unwrapping and preparing 3D models before integration. Users can interact not just with the clothing textures but also with avatar perspectives, making the experience more interactive. Questionnaire results directly influence model generation, adding personalization. The modular design allows future enhancements like AI-driven recommendations or body measurement prediction. By simulating a physical fitting room virtually, DrapeFit significantly improves customer satisfaction. The system represents a step forward in AR and 3D-based e-commerce innovation. Its goal is to provide customers with confidence in online shopping and reduce uncertainty about fit and style. Overall, DrapeFit serves as a bridge between technology and fashion, combining usability, interactivity, and reliability into a single platform.
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
