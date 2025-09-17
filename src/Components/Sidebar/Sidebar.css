@@ -1,0 +1,116 @@
+.product-Listing-Page{ 
+    padding:35px 0px;
+  }
+  .product-Listing-Page .productListing{
+     gap:50px; 
+  }
+  .product-Listing-Page .productListing .sidebar{
+     background: #5f8392; border-radius: 8px; color: #fff; padding: 20px; width:25%; flex: 0 0 25% ; height:30%;
+  
+   }
+  .product-Listing-Page .productListing .sidebar .filterbox{
+     margin-bottom: 35px; } 
+  .product-Listing-Page .productListing .sidebar .filterbox h6{
+     font-weight: 700; font-size: 14px; margin-bottom: 15px; }
+  .product-Listing-Page .productListing .sidebar .scroll ul li{
+     list-style: none; margin-bottom: 0px; width: 100%; }
+  .product-Listing-Page .productListing .sidebar .scroll ul{
+     margin-bottom: 0px; } 
+  .product-Listing-Page .productListing .sidebar .scroll {
+     padding-left: 10px; max-height: 180px; overflow-y: scroll; overflow-x: hidden; } 
+  .product-Listing-Page .productListing .sidebar .scroll ::-webkit-scrollbar{
+     width:5px !important; height: 5px !important; }
+  .product-Listing-Page .productListing .content_right{ 
+    width:80%; flex: 0 0 80%; padding-left: 50px; }
+  .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+     padding:2px !important; }
+  .css--MuiTyi4bv87-MuiSvgIcon-root{
+     width: 20px !important; height: 20px !important; }
+  .css-ahj2mt-MuiTypography-root{
+     font-size: 16px !important; font-family:Arial, Helvetica, sans-serif; }
+  .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{ color:white !important; }
+  .range-slider .range-slider_thumb,.range-slider .range-slider_range{
+     background: white !important; }
+  .range-slider .range-slider__thumb{ width: 15px !important; height: 15px !important; }
+  .range-slider{ height:5px !important; } /* Right Content */ 
+  .content-right {
+     flex: 1; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; align-items: center; }
+  .showBy{ width: 100%; height: auto; background: rgb(235, 227, 227); padding:15px 25px; }
+  .showBy .btnWrapper button{
+     min-width: 33px !important; height: 30px !important; width: 33px !important; border-radius: 50% !important; color: #000; } 
+  .showBy .btnWrapper button svg{
+     font-size: 50px !important; color: #000; opacity: 0.3; }
+  .showBy .btnWrapper button :hover svg{
+     opacity: 1; }
+  .showBy .btnWrapper button .act  svg{
+     opacity: 1 !important;
+  }
+  .showByFilter button{
+     font-size: 12px !important; min-width: auto !important; color: #000; }
+  .showByFilter button svg{ 
+    color: #000; opacity: 0.6; margin-left: 5px; }
+  .showPerPageDropDown .MuiPaper-root{
+     font-size: 12px !important; width:80px !important }
+  .productListing { 
+    display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+  .productListing .productItem {
+     flex: 1 1 calc(25% - 20px); /* 4 items per row with spacing */ max-width: calc(25% - 20px); transition: all 0.3s ease-in-out; }
+  .productListing .productItem.one {
+     flex: 1 1 100%;  max-width: 100%; display: flex; align-items: center; gap: 1px;
+     margin-right: 300px; 
+   }
+  .productListing .productItem.one .img_rapper {
+     width: 40px;   min-width: 50px;  flex-shrink: 0; } 
+  
+  .productListing .productItem.one .content { 
+    flex: 1; /* Allows content to take remaining space */ } 
+  .productListing .productItem.two {
+     flex: 1 1 38%; /* 2 items per row */ max-width: 38%; } 
+  .productListing .productItem.three {
+     flex: 1 1 28.33%; /* 3 items per row */ max-width: 28.33%; } 
+  .productListing .productItem.four { 
+    flex: 1 1 20%;
+     max-width: 20%; } 
+  @media screen and (max-width: 992px) { 
+  .productListing .productItem { flex: 1 1 50%; max-width: 50%; } }
+   @media screen and (max-width: 768px) { 
+  .productListing .productItem { flex: 1 1 100%; max-width: 100%; } }
+  /* Pagination Container */
+  .d-flex.align-items-center.justify-content-center.mt-5 {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 20px 0;
+   }
+   
+   /* Custom Pagination Styling */
+   .MuiPagination-root {
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     gap: 12px;
+   }
+   
+   /* Pagination Buttons */
+   .MuiPaginationItem-root {
+     font-size: 15px !important; /* Large font size */
+     color:black !important; /* White text */
+     background-color: whitesmoke!important; /* Custom Orange background */
+     border-radius: 44px !important;
+     padding: 16px 22px !important; /* Increase padding */
+     transition: all 0.3s ease-in-out;
+   }
+   
+   /* Hover & Active State */
+   .MuiPaginationItem-root:hover,
+   .Mui-selected {
+     background-color:#5f8392 !important; /* Darker shade of orange */
+     color: #fff !important;
+     
+   }
+   
+   /* Pagination Dots */
+   .MuiPaginationItem-ellipsis {
+     color: black !important;
+    
+   }

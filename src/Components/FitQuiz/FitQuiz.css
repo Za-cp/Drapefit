@@ -1,0 +1,20 @@
+.fitquiz-modal {
+    position: absolute; /* Place it relative to the parent */
+    top: 60%; /* Move it down */
+    left: 50%; /* Move to center horizontally */
+    transform: translate(-50%, -50%); /* Center it exactly */
+    width: 400px; /* Adjust width nicely */
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* Stay above everything */
+}
+
+/* For smaller devices responsiveness */
+@media (max-width: 600px) {
+    .fitquiz-modal {
+        width: 90%;
+        top: 65%;
+    }
+}
